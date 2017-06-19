@@ -1,12 +1,12 @@
 <?php
 
 /*
-    Template Name: Homepage
+    Template Name: About
 */
 
 get_header();
 ?>
-<h1>Home</h1>
 
+<h1>À propos</h1>
 
 <?php get_footer(); ?>
