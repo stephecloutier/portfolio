@@ -118,18 +118,3 @@ function sp_get_page_id_from_template($templateName) {
 function sp_get_page_url($templateName) {
     return get_page_link(sp_get_page_id_from_template($templateName));
 }
-
-/*
- * Return string corresponding to the alt from given ACF image
-*/
-
-function sp_get_image_alt($fieldName) {
-    if(get_field($fieldName)) $image = get_field($fieldName);
-    if(get_sub_field($fieldName)) $image = get_sub_field($fieldName);
-    if(!get_field($fieldName) &&!get_sub_field($fieldName)) $image = $fieldName;
-    if(!$image) return false;
-    if($image['alt']) return $image['alt'];
-    if($image['description']) return $image['description'];
-    if($image['caption']) return $image['caption'];
-    return $image['title'];
-}
