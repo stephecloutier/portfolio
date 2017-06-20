@@ -51,7 +51,6 @@ get_header();
                     <img width="300" height="auto" src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>" class="project__image">
                 </figure>
                 <span class="project__title"><?= $fields['project-title']; ?></span>
-                <p><?= $fields['project-date']; ?></p>
             </a>
         </div>
 
