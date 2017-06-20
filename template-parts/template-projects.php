@@ -6,8 +6,7 @@
 
 get_header();
 ?>
-
-<div class="projects">
+<main class="projects">
     <h1 class="main-title projects__title"><?= __('Mes projets', 'sp'); ?></h1>
     <nav class="nav nav--projects">
         <h2 class="nav__title">
@@ -56,6 +55,6 @@ get_header();
 
         <?php endwhile; endif; ?>
     </div>
-</div>
+</main>
 
 <?php get_footer(); ?>
