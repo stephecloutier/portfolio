@@ -46,11 +46,13 @@ get_header();
                 echo ' project--' . $taxonomy->slug;
             }
         ?>">
-            <figure class="project__image--wrapper">
-                <img width="300" height="auto" src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>" class="project__image">
-            </figure>
-            <span class="project__title"><?= $fields['project-title']; ?></span>
-            <p><?= $fields['project-date']; ?></p>
+            <a href="<?= the_permalink(); ?>" class="project__link" title="<?= __('Aller sur la page du projet', 'sp'); ?>">
+                <figure class="project__image--wrapper">
+                    <img width="300" height="auto" src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>" class="project__image">
+                </figure>
+                <span class="project__title"><?= $fields['project-title']; ?></span>
+                <p><?= $fields['project-date']; ?></p>
+            </a>
         </div>
 
         <?php endwhile; endif; ?>
