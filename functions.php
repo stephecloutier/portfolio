@@ -26,6 +26,17 @@ function sp_register_types() {
         'menu_position' => 20,
         'menu_icon' => 'dashicons-portfolio'
     ]);
+    register_taxonomy('project-type', 'project', [
+        'label' => 'Types de projet',
+        'labels' => [
+            'singular_name' => 'Type',
+            'edit_item' => 'Éditer le type',
+            'add_new_item' => 'Ajouter un nouveau type de projet'
+        ],
+        'description' => 'Permet de préciser un type de projet pour le projet donné',
+        'public' => true,
+        'hierarchical' => true
+    ]);
 }
 
 /*
@@ -72,8 +83,6 @@ function sp_get_nav_id($location) {
 }
 
 
-
-
 /*
     Hooks into wp_title() content formatting
     @check add_filter('wp_title')
@@ -85,4 +94,27 @@ function custom_wp_title($title) {
     }
     $title .= ' | ' . get_bloginfo('name');
     return trim($title);
+}
+
+
+/*
+ * Get page ID from template name
+*/
+function sp_get_page_id_from_template($templateName) {
+    $pages = get_pages(array(
+        'meta_key' => '_wp_page_template',
+        'meta_value' => 'template-parts/' . $templateName,
+        'hierarchical' => 0
+    ));
+
+    foreach($pages as $page){
+        return $page->ID;
+    }
+}
+
+/*
+ * Get page url from ID
+*/
+function sp_get_page_url($templateName) {
+    return get_page_link(sp_get_page_id_from_template($templateName));
 }
