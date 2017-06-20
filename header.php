@@ -22,7 +22,7 @@
                     <span class="hidden">Stéphanie Cloutier</span>
                 </a>
             </h1>
-            <nav class="nav">
+            <nav class="nav nav--main">
                 <h2 class="hidden"><?= __('Navigation principale', 'sp'); ?></h2>
                 <ul class="nav__list">
                 <?php foreach(sp_get_nav_items('main') as $item): ?>
