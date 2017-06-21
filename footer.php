@@ -16,7 +16,7 @@
                         <a href="mailto:stephecloutier@gmail.com" class="contact__link" title="<?= __('M’envoyer un mail', 'sp'); ?>">stephecloutier@gmail.com</a>
                     </li>
                     <li class="contact__item contact__item--phone">
-                        +32 (0) 487 20 43 73
+                        +32&nbsp;(0)&nbsp;487&nbsp;20&nbsp;43&nbsp;73
                     </li>
                 </ul>
                 <span class="credits">
