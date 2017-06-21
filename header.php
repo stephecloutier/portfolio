@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/assets/css/main.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <h1>
                 <a href="<?= get_home_url(); ?>" class="header__link" title="Aller à l’accueil">
                     <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.8 67.7">

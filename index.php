@@ -7,7 +7,7 @@
 get_header();
 ?>
 
-<main>
+<main class="home">
     <section class="introduction">
         <h2 class="hidden">Introduction</h2>
         <p class="introduction__content">
