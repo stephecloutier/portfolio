@@ -17,8 +17,21 @@
     .nav__link {
         color: $blue;
         transition: 0.2s ease-in-out;
+        position: relative;
+        &::before {
+            content: "\25CF";
+            display: inline-block;
+            position: absolute;
+            left: -1em;
+            opacity: 0;
+            transition: 0.2s ease-in-out;
+        }
         &:hover {
             color: $pink;
+            &::before {
+                opacity: 1;
+                color: $turquoise;
+            }
         }
     }
 }
