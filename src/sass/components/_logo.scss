@@ -7,7 +7,7 @@
         fill: $pink;
         transition: 0.2s ease-in-out;
     }
-    &:hover {
+    &:hover, &:focus {
         .logo-letters {
             fill: $pink;
         }
