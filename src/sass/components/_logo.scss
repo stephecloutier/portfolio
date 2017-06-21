@@ -1,8 +1,18 @@
 .logo-svg {
     .logo-letters {
         fill: $blue;
+        transition: 0.2s ease-in-out;
     }
     .logo-elements {
         fill: $pink;
+        transition: 0.2s ease-in-out;
+    }
+    &:hover {
+        .logo-letters {
+            fill: $pink;
+        }
+        .logo-elements {
+            fill: $turquoise;
+        }
     }
 }
