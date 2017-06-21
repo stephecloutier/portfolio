@@ -56,3 +56,16 @@
     font-style: italic;
     src: url("../fonts/source-sans-pro/SourceSansPro-BoldIt.otf");
 }
+
+// ICONS
+
+@font-face {
+  font-family: "icon-portfolio";
+  src:url("../fonts/icon-portfolio/icon-portfolio.eot");
+  src:url("../fonts/icon-portfolio/icon-portfolio.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/icon-portfolio/icon-portfolio.woff") format("woff"),
+    url("../fonts/icon-portfolio/icon-portfolio.ttf") format("truetype"),
+    url("../fonts/icon-portfolio/icon-portfolio.svg#icon-portfolio") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}

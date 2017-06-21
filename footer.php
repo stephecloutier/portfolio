@@ -21,12 +21,14 @@
                 </ul>
                 <span class="credits">
                     <?= __('Design et développement par ', 'sp'); ?><a href="https://github.com/stephecloutier/portfolio" class="credits__link">Stéphanie Cloutier</a>
+
+                    <span class="palmtree" title="<?= __('Coucou Leny&nbsp;!', 'sp'); ?>">
+                        <svg id="palmtree" class="palmtree__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 312 595">
+                            <path class="palmtree" d="M13.3 588c0-141.1-3.6-280.6 1.6-419.8 2.4-65.8 31.2-124.6 100.3-150.9 67-25.4 139.5-5.4 183.8 55.4-14.1 8.7-28.2 17.4-42.9 26.6-33.4-38.5-74.2-50.1-122.3-34.8-45.3 14.4-68.9 77.8-69.1 118.3-.5 120.8-.3 396.4-.3 405.2H13.3z"/>
+                        </svg>
+                    </span>
                 </span>
-                <span class="palmtree" title="<?= __('Coucou Leny&nbsp;!', 'sp'); ?>">
-                    <svg id="palmtree" class="palmtree__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 312 595">
-                        <path class="palmtree" d="M13.3 588c0-141.1-3.6-280.6 1.6-419.8 2.4-65.8 31.2-124.6 100.3-150.9 67-25.4 139.5-5.4 183.8 55.4-14.1 8.7-28.2 17.4-42.9 26.6-33.4-38.5-74.2-50.1-122.3-34.8-45.3 14.4-68.9 77.8-69.1 118.3-.5 120.8-.3 396.4-.3 405.2H13.3z"/>
-                    </svg>
-                </span>
+
             </div>
         </footer><!--
     --></body>

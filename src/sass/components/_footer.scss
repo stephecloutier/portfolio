@@ -1,14 +1,87 @@
 .footer {
     background-color: $blue;
     color: white;
-    //margin-bottom: -10px;
+    padding: 2rem 0;
+    font-family: $karla;
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
 }
 
 .footer__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     max-width: 1056px;
     margin: 0 auto;
 }
 
+.social-medias__list {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+.social-medias__item {
+    &::after {
+        content: "";
+        height: 1.5px;
+        background-color: white;
+        width: 0%;
+        display: block;
+        position: relative;
+        top: -2px;
+        transition: 0.2s ease-in;
+    }
+    &:hover {
+        &::after {
+            width: 100%;
+        }
+    }
+}
+
+.contact__list {
+    display: flex;
+    .contact__item--mail {
+        margin-right: 2em;
+        &::after {
+            content: "";
+            height: 1.5px;
+            background-color: white;
+            width: 0%;
+            display: block;
+            position: relative;
+            top: -2px;
+            transition: 0.2s ease-in;
+        }
+        &:hover {
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.credits__link {
+    display: inline-block;
+    min-height: 10px;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+    &::after {
+        content: "";
+        height: 1.5px;
+        background-color: white;
+        width: 0%;
+        display: block;
+        position: relative;
+        top: -2px;
+        transition: 0.2s ease-in;
+    }
+    &:hover {
+        &::after {
+            width: 100%;
+        }
+    }
+}
 
 .palmtree {
     padding: 0.5em;

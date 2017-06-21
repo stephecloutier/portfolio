@@ -6,11 +6,12 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    &__link {
-        //max-width: 200px;
-    }
 }
 
 .logo-svg {
     width: 120px;
+}
+
+.nav--main {
+    margin-bottom: 7px;
 }
