@@ -8,6 +8,7 @@ get_header();
 ?>
 <main class="projects">
     <h1 class="main-title projects__title"><?= __('Mes projets', 'sp'); ?></h1>
+    <!--
     <nav class="nav nav--projects">
         <h2 class="nav__title">
             <?= __('Types de projet', 'sp'); ?>
@@ -24,6 +25,7 @@ get_header();
             <?php endforeach; ?>
         </ul>
     </nav>
+-->
     <div class="projects--wrapper">
         <?php
             $posts = $posts = new WP_Query([
