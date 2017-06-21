@@ -26,7 +26,7 @@
             opacity: 0;
             transition: 0.2s ease-in-out;
         }
-        &:hover {
+        &:hover, &:focus {
             color: $pink;
             &::before {
                 opacity: 1;
