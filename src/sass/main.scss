@@ -1,0 +1,20 @@
+//  ITCSS
+// Settings : Global variables, config switches
+// Tools : Default mixins and functions
+// Generic : Ground-zero styles (Normalize, reset, box-sizing)
+// Base : Unclassed HTML elements (type selectors)
+// Objects : Cosmetic-free design patterns
+// Components : Designed components, chunks of UI
+// Trumps : Helpers and overrides
+
+@import "settings/fonts";
+@import "settings/colors";
+
+@import "tools/mixins";
+
+@import "generic/box-sizing";
+@import "generic/reset";
+
+@import "base/links";
+@import "base/font";
+@import "base/hidden";
