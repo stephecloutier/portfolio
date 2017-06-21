@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) {
+    .header {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
+    .logo-svg {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .header {
+        padding: 1rem 0.25rem;
+    }
+}
