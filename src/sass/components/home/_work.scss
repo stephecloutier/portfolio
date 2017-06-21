@@ -1,9 +1,13 @@
 .work {
     padding: 5rem 0;
+    width: 100%;
+    font-family: $karla;
+}
+
+.work__wrapper {
     max-width: 1056px;
     width: 100%;
     margin: 0 auto;
-    font-family: $karla;
 }
 
 .work__title {

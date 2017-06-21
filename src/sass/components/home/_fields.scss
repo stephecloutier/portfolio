@@ -1,9 +1,13 @@
 .fields {
     padding: 5rem 0 0 0;
+    font-family: $karla;
+    width: 100%;
+}
+
+.fields__wrapper {
     max-width: 1056px;
     width: 100%;
     margin: 0 auto;
-    font-family: $karla;
 }
 
 .fields__title {

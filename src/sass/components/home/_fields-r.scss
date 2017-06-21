@@ -1,0 +1,37 @@
+@media screen and (max-width: 1200px) {
+    .fields {
+        padding: 5rem 2rem 0 2rem;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .fields__title--emphasis {
+        margin-left: 0;
+        display: inline;
+    }
+
+    .fields__content {
+        margin-left: 0;
+    }
+
+    .fields__cta {
+        margin-left: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .fields__title {
+        font-size: 3rem;
+        line-height: 1;
+    }
+    .fields__content {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .fields {
+        padding: 3rem 1rem 0 1rem;
+    }
+}
