@@ -22,7 +22,7 @@ get_header();
 
 
     <section class="fields">
-        <h2 class="fields__title"><?= __('Pourquoi les deux&nbsp;?', 'sp'); ?></h2>
+        <h2 class="fields__title"><?= __('Pourquoi <span class="fields__title--emphasis">les deux&nbsp;?</em>', 'sp'); ?></h2>
         <p class="fields__content">
             <?= __('Après trois ans de design graphique, j’avais toujours envie d’étudier. Quoi de mieux que de compléter ma formation avec le développement web&nbsp;?', 'sp'); ?>
         </p>

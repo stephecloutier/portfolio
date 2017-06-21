@@ -1,0 +1,57 @@
+.fields {
+    padding: 2rem 0;
+    max-width: 1056px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: $karla;
+}
+
+.fields__title {
+    font-weight: 600;
+    font-size: 4rem;
+    color: $blue;
+}
+
+.fields__title--emphasis {
+    display: block;
+    margin-left: 7rem;
+    margin-top: -2rem;
+}
+
+.fields__content {
+    margin-top: 0.5rem;
+    margin-left: 7.2rem;
+    max-width: 750px;
+    font-size: 1.5rem;
+}
+
+.cta {
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 1rem;
+    color: $blue;
+    position: relative;
+    transition: 0.2s ease-in-out;
+    text-transform: lowercase;
+    &::before {
+        content: "\25CF";
+        display: inline-block;
+        position: absolute;
+        left: -1rem;
+        top: 0;
+        color: $pink;
+        transition: 0.2s ease-in-out;
+    }
+    &:hover, &:focus {
+        color: $pink;
+        &::before {
+            opacity: 1;
+            color: $turquoise;
+        }
+    }
+}
+
+.fields__cta {
+    margin-top: 1rem;
+    margin-left: 7.2rem + 1rem;
+}
