@@ -3,3 +3,25 @@
         padding: 4rem 2rem;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .introduction {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .introduction {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .introduction {
+        padding: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+}
