@@ -1,0 +1,28 @@
+.introduction {
+    width: 100%;
+    background-color: $blue;
+    color: white;
+    padding: 4rem 0;
+    font-family: $karla;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.2;
+    &--english {
+        font-style: italic;
+    }
+}
+
+.introduction__wrapper {
+    max-width: 1056px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.introduction__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction__line {
+
+}

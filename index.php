@@ -9,14 +9,17 @@ get_header();
 
 <main class="home">
     <section class="introduction">
-        <h2 class="hidden">Introduction</h2>
-        <p class="introduction__content">
-            <span class="introduction__line"><?= __('Bonjour&nbsp;!','sp'); ?></span>
-            <span class="introduction__line"><?= __('Je m’appelle Stéphanie, ', 'sp'); ?></span>
-            <span class="introduction__line"><?= __('je suis <em class="introduction--english">Graphic Designer</em> ', 'sp'); ?></span>
-            <span class="introduction__line"><?= __('& <em class="introduction--english">Web Developer</em> ', 'sp'); ?></span>
-        </p>
-    </section>
+        <div class="introduction__wrapper">
+            <h2 class="hidden">Introduction</h2>
+            <p class="introduction__content">
+                <span class="introduction__line"><?= __('Bonjour&nbsp;!','sp'); ?></span>
+                <span class="introduction__line"><?= __('Je m’appelle Stéphanie, ', 'sp'); ?></span>
+                <span class="introduction__line"><?= __('je suis <em class="introduction--english">Graphic Designer</em> ', 'sp'); ?></span>
+                <span class="introduction__line"><?= __('& <em class="introduction--english">Web Developer</em> ', 'sp'); ?></span>
+            </p>
+        </section>
+        </div>
+
 
     <section class="fields">
         <h2 class="fields__title"><?= __('Pourquoi les deux&nbsp;?', 'sp'); ?></h2>
