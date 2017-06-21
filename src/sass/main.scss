@@ -19,14 +19,18 @@
 @import "base/links";
 @import "base/font";
 @import "base/hidden";
+@import "base/flex";
 
 @import "objects/header";
 
 @import "components/logo";
 @import "components/nav";
+@import "components/footer";
+
 
 
 // Media queries
 @import "objects/header-r";
 
 @import "components/nav-r";
+@import "components/footer-r";
