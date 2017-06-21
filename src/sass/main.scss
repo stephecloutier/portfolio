@@ -9,6 +9,7 @@
 
 @import "settings/fonts";
 @import "settings/colors";
+@import "settings/fonts-variables";
 
 @import "tools/mixins";
 
@@ -21,4 +22,5 @@
 
 @import "objects/header";
 
-@import "components/logo"
+@import "components/logo";
+@import "components/nav";

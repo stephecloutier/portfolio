@@ -1,4 +1,15 @@
 .header {
     max-width: 1056px;
     margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    &__link {
+        //max-width: 200px;
+    }
+}
+
+.logo-svg {
+    max-width: 120px;
 }

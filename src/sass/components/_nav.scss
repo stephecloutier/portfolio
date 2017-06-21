@@ -1,0 +1,24 @@
+.nav__list {
+    display: flex;
+}
+
+.nav--main {
+    font-family: $karla;
+    font-weight: 600;
+    text-transform: lowercase;
+    width: 275px;
+    max-width: 275px;
+    .nav__list {
+        justify-content: space-between;
+    }
+    .nav__item {
+        margin-left: 2rem;
+    }
+    .nav__link {
+        color: $blue;
+        transition: 0.2s ease-in-out;
+        &:hover {
+            color: $pink;
+        }
+    }
+}
