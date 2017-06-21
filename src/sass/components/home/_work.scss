@@ -1,0 +1,39 @@
+.work {
+    padding: 5rem 0;
+    max-width: 1056px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: $karla;
+}
+
+.work__title {
+    font-weight: 600;
+    font-size: 4rem;
+    color: $blue;
+}
+
+.work__title--emphasis {
+    display: block;
+    margin-left: 5.5rem;
+    margin-top: -2rem;
+}
+
+.work__content {
+    margin-top: 0.5rem;
+    margin-left: 5.5rem;
+    max-width: 750px;
+    font-size: 1.5rem;
+}
+
+.work__cta {
+    margin-left: 5.5rem + 1rem;
+}
+
+.work__projects {
+    padding: 2rem 0;
+    margin-left: 5.5rem;
+    display: flex;
+    max-width: calc(1056px - 5.5rem);
+    width: 100%;
+    justify-content: space-between;
+}

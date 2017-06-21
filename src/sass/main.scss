@@ -29,7 +29,9 @@
 
 @import "components/home/intro";
 @import "components/home/fields";
+@import "components/home/work";
 
+@import "components/single-project";
 
 
 // Media queries
@@ -40,3 +42,4 @@
 
 @import "components/home/intro-r";
 @import "components/home/fields-r";
+@import "components/home/work-r";
