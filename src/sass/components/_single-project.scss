@@ -36,3 +36,41 @@
         max-width: 48%;
     }
 }
+
+.project__process {
+    margin-top: 4rem;
+}
+
+.process__title {
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: $blue;
+    font-family: $karla;
+    line-height: 1;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.images__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.process__wrapper {
+    margin: 1.5rem 1rem;
+}
+
+.process__image {
+    width: auto;
+    height: 250px;
+}
+
+.image__caption {
+    font-family: $karla;
+    color: $blue;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}

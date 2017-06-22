@@ -29,7 +29,28 @@ $date = new DateTime($fields['project-date']);
             </div>
             <img width="500" height="auto" class="introduction__image" src="<?= $fields['project-presentation-image']['url']; ?>" alt="<?= $fields['project-presentation-image']['alt']; ?>">
         </div>
-    </div>
+
+        <?php
+            if($fields['project-process']):
+                $images = $fields['project-process'];
+        ?>
+        <section class="project__process">
+            <h2 class="process__title"><?= __('Images du projet', 'sp'); ?></h2>
+            <div class="images__wrapper">
+                <?php foreach($images as $image): ?>
+                <figure class="process__wrapper">
+                    <a href="<?= $image['url']; ?>" title="<?= __('Afficher l’image en plus grand', 'sp'); ?>">
+                        <img class="process__image" src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>">
+                    </a>
+                    <?php if($image['description']): ?>
+                    <figcaption class="image__caption"><?= $image['description']; ?></figcaption>
+                    <?php endif; ?>
+                </figure>
+                <?php endforeach; ?>
+            </div>
+        </div>
+        <?php endif; ?>
+    </section>
 </main>
 
 
