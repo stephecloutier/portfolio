@@ -8,7 +8,7 @@ get_header();
 ?>
 
 <main class="home">
-    <section class="introduction">
+    <section class="introduction introduction--home">
         <div class="introduction__wrapper">
             <h2 class="hidden">Introduction</h2>
             <p class="introduction__content">

@@ -33,6 +33,9 @@
 
 @import "components/single-project";
 
+@import "components/titles";
+@import "components/projects";
+
 
 // Media queries
 @import "objects/header-r";
@@ -43,3 +46,5 @@
 @import "components/home/intro-r";
 @import "components/home/fields-r";
 @import "components/home/work-r";
+
+@import "components/projects-r";

@@ -1,4 +1,4 @@
-.introduction {
+.introduction--home {
     width: 100%;
     background-color: $blue;
     color: white;
@@ -10,19 +10,15 @@
     &--english {
         font-style: italic;
     }
-}
 
-.introduction__wrapper {
-    max-width: 1056px;
-    width: 100%;
-    margin: 0 auto;
-}
+    .introduction__wrapper {
+        max-width: 1056px;
+        width: 100%;
+        margin: 0 auto;
+    }
 
-.introduction__content {
-    display: flex;
-    flex-direction: column;
-}
-
-.introduction__line {
-
+    .introduction__content {
+        display: flex;
+        flex-direction: column;
+    }
 }

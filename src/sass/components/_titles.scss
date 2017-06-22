@@ -1,0 +1,12 @@
+.main-title {
+    font-weight: 600;
+    font-size: 4rem;
+    color: $blue;
+    font-family: $karla;
+}
+
+@media screen and (max-width: 800px) {
+    .main-title {
+        font-size: 3rem;
+    }
+}

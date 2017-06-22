@@ -1,0 +1,22 @@
+.projects {
+    width: 100%;
+}
+
+.projects__title {
+    max-width: 1056px;
+    width: 100%;
+    margin: 0 auto 1rem auto;
+    line-height: 1;
+}
+
+.projects--wrapper {
+    max-width: 1056px;
+    width: 100%;
+    margin: 0 auto 2rem auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .project {
+        margin: 0 1.5rem 1.5rem 2rem;
+    }
+}
