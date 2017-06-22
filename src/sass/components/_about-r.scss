@@ -1,0 +1,34 @@
+@media screen and (max-width: 1200px) {
+    .about__wrapper {
+        padding: 0 2rem 3rem 2rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .about__content {
+        flex-direction: column;
+    }
+    .about__image--wrapper {
+        order: -1;
+        width: 100%;
+    }
+    .about__text {
+        width: 100%;
+        max-width: 600px;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .about__title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .about__text {
+        font-size: 1rem;
+    }
+    .about__image {
+        width: 100%;
+        height: auto;
+    }
+}
