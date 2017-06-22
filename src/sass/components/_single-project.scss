@@ -1,23 +1,38 @@
-.project__title {
-    @include hidden;
-    opacity: 0;
-    transition: opacity 0.2s ease-in;
+.single-project {
+    width: 100%;
 }
 
-.project {
-    width: 280px;
-    height: 150px;
-    overflow: hidden;
-    background-color: white;
-    cursor: pointer;
-    &:hover {
-        .project__title {
-            font-size: 1rem;
-            text-indent: 0;
-            text-transform: lowercase;
-            font-weight: 600;
-            opacity: 1;
-            color: $blue;
-        }
+.single-project__wrapper {
+    max-width: 1056px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.project__date {
+    font-family: $karla;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: $blue;
+    text-transform: capitalize;
+}
+
+.introduction--project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .introduction__content {
+        font-size: 1.2rem;
+        max-width: 48%;
+    }
+    .introduction__links {
+        margin-top: 2rem;
+    }
+    .introduction__link+.introduction__link {
+        margin-left: 2.5rem;
+    }
+    .introduction__image {
+        box-shadow: 3px 3px 14px 0px $lightGray;
+        max-width: 48%;
     }
 }

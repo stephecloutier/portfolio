@@ -42,5 +42,7 @@
                         <?php endforeach; ?>
                     </ul>
                 </nav>
-            </div>    
+            </div>
         </header>
+
+    <?php setlocale(LC_ALL, 'fr_BE.utf8'); ?>

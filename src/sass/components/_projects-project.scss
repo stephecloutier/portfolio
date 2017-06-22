@@ -1,0 +1,23 @@
+.project__title {
+    @include hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.project {
+    width: 280px;
+    height: 150px;
+    overflow: hidden;
+    background-color: white;
+    cursor: pointer;
+    &:hover {
+        .project__title {
+            font-size: 1rem;
+            text-indent: 0;
+            text-transform: lowercase;
+            font-weight: 600;
+            opacity: 1;
+            color: $blue;
+        }
+    }
+}
