@@ -58,10 +58,11 @@ get_header();
                     }
                 ?>">
                     <a href="<?= the_permalink(); ?>" class="project__link" title="<?= __('Aller sur la page du projet', 'sp'); ?>">
+                        <span class="project__title"><?= $fields['project-title']; ?></span>
+                        <div class="project--hover"></div>
                         <figure class="project__image--wrapper">
                             <img width="280" height="auto" src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>" class="project__image">
                         </figure>
-                        <span class="project__title"><?= $fields['project-title']; ?></span>
                     </a>
                 </div>
 
