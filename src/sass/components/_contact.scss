@@ -1,0 +1,131 @@
+.contact {
+    padding-bottom: 4rem;
+}
+
+.contact__title {
+    max-width: 1056px;
+    width: 100%;
+    margin: 0 auto 2rem auto;
+}
+
+.contact__wrapper {
+    max-width: 1056px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__infos {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.contact__listc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contact__itemc {
+    margin-bottom: 0.2rem;
+    &--mailc {
+        display: block;
+        font-weight: 600;
+        &::after {
+            content: "";
+            height: 1.5px;
+            background-color: $darkGray;
+            width: 0%;
+            display: block;
+            position: relative;
+            top: -2px;
+            transition: 0.2s ease-in;
+        }
+        &:hover, &:focus {
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.form__wrapper {
+    width: 60%;
+}
+
+.wpcf7-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__subtitle, .contact--special {
+    color: $blue;
+    font-family: $karla;
+    font-weight: 600;
+}
+
+.contact__subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact--special {
+    display: block;
+    margin-top: 1rem;
+}
+
+.form__label {
+    text-transform: lowercase;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.form__label:not(:nth-of-type(1)) {
+    margin-top: 1rem;
+}
+
+.form__input, .form__textarea {
+    min-height: 3em;
+    padding: 1em;
+    border: 1px solid $lightGray;
+}
+
+.form__label--required::after {
+    content: " *";
+}
+
+.form__button {
+    margin-top: 1rem;
+    width: 200px;
+    align-self: flex-end;
+    border: 1px solid $blue;
+    background-color: white;
+    color: $blue;
+    font-size: 1em;
+    padding: 1em;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: lowercase;
+    transition: 0.2s ease-in-out;
+    &:hover, &:focus {
+        background-color: $blue;
+        color: white;
+    }
+}
+
+.wpcf7-response-output {
+        padding: 2rem 0;
+        &.wpcf7-mail-sent-ng {
+            color: red;
+        }
+        &.wpcf7-validation-errors {
+            color: red;
+        }
+    }
+
+.screen-reader-response {
+    @include hidden;
+}
+.wpcf7-not-valid-tip {
+    color: red;
+}

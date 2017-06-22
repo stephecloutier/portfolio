@@ -1,0 +1,18 @@
+@media screen and (max-width: 1200px) {
+    .contact__wrapper, .contact__title {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .contact__wrapper {
+        flex-direction: column;
+    }
+    .contact__infos {
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    .form__wrapper {
+        width: 100%;
+    }
+}
