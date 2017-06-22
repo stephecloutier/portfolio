@@ -53,8 +53,10 @@ get_header();
                         $image = $fields['project-image'];
                 ?>
                 <div class="project<?php
-                    foreach($fields['project-taxonomy'] as $taxonomy){
-                        echo ' project--' . $taxonomy->slug;
+                    if($fields['project-taxonomy']) {
+                        foreach($fields['project-taxonomy'] as $taxonomy){
+                            echo ' project--' . $taxonomy->slug;
+                        }
                     }
                 ?>">
                     <a href="<?= the_permalink(); ?>" class="project__link" title="<?= __('Aller sur la page du projet', 'sp'); ?>">
