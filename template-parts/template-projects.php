@@ -26,7 +26,7 @@ get_header();
         </ul>
     </nav>
 -->
-    <div class="projects--wrapper">
+    <ul class="projects--wrapper">
         <?php
             $posts = $posts = new WP_Query([
                     'posts_per_page' => -1,
@@ -41,23 +41,23 @@ get_header();
         <?php $fields = get_fields();
                 $image = $fields['project-image'];
         ?>
-        <div class="project<?php
+        <li class="project<?php
             if($fields['project-taxonomy']) {
                 foreach($fields['project-taxonomy'] as $taxonomy){
                     echo ' project--' . $taxonomy->slug;
                 }
-            }    
+            }
         ?>">
             <a href="<?= the_permalink(); ?>" class="project__link" title="<?= __('Aller sur la page du projet', 'sp'); ?>">
                 <span class="project__title"><?= $fields['project-title']; ?></span>
                 <figure class="project__image--wrapper">
-                    <img width="300" height="auto" src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>" class="project__image">
+                    <img width="600" height="auto" src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>" class="project__image">
                 </figure>
             </a>
-        </div>
+        </li>
 
         <?php endwhile; endif; ?>
-    </div>
+    </ul>
 </main>
 
 <?php get_footer(); ?>

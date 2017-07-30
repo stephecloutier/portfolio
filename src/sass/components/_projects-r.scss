@@ -1,6 +1,14 @@
 @media screen and (max-width: 1200px) {
-    .projects__title {
+    .projects {
         padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .projects--wrapper {
+        .project {
+            width: 47.5%;
+        }
     }
 }
 
@@ -9,13 +17,14 @@
         text-align: center;
     }
     .projects--wrapper {
-        padding: 0 1rem;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
+        padding: 0 1rem 2rem;
+        transform: translate(0);
+        // flex-direction: column;
+        // align-items: center;
+        // flex-wrap: nowrap;
+        // justify-content: flex-start;
         .project {
-            max-width: 100%;
+            width: 100%;
         }
     }
 }
