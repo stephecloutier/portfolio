@@ -8,6 +8,8 @@ get_header();
 ?>
 
 <main class="home">
+
+<!--
     <section class="introduction introduction--home">
         <div class="introduction__wrapper">
             <h2 class="hidden">Introduction</h2>
@@ -19,8 +21,9 @@ get_header();
             </p>
         </section>
         </div>
+-->
 
-
+<!--
     <section class="fields">
         <div class="fields__wrapper">
             <h2 class="fields__title"><?= __('Pourquoi <span class="fields__title--emphasis">les deux&nbsp;?</em>', 'sp'); ?></h2>
@@ -30,6 +33,7 @@ get_header();
             <a href="<?= sp_get_page_url('template-about.php'); ?>" class="fields__cta cta" title="<?= __('Aller sur la page à propos', 'sp'); ?>"><?= __('Apprendre à me connaître', 'sp'); ?></a>
         </div>
     </section>
+-->
 
     <section class="work">
         <div class="work__wrapper">
