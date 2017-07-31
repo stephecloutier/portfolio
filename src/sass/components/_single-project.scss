@@ -71,17 +71,9 @@
 }
 
 .process__figure {
-    //margin: 1.5rem 1rem;
-    //max-width: 100%;
-    //overflow: hidden;
-}
-
-.process__figure {
     width: 100%;
     overflow: hidden;
     position: relative;
-    // -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
-    // -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
     //box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -114,21 +106,18 @@
     font-size: 1rem;
 }
 
-.process__buttons {
+.process__button {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
 .overlay__button {
-    color: white;
-    font-size: 2rem;
-    //opacity: 0;
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+    transition: 0.3s;
 }
 
 .process__item:hover {

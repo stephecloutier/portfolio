@@ -44,12 +44,9 @@ $date = new DateTime($fields['project-date']);
                             <img class="process__image" src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>">
                             <div class="process__overlay"></div>
                             <div class="process__button">
-                                <a class="overlay__button" href="#">S</a>
+                                <img class="overlay__button" src="<?= get_template_directory_uri(); ?>/assets/images/search.svg">
                             </div>
                         </a>
-                        <!-- <?php if($image['description']): ?>
-                        <figcaption class="image__caption"><?= $image['description']; ?></figcaption>
-                        <?php endif; ?> -->
                     </figure>
                     <?php if($image['description']): ?>
                     <span class="image__caption"><?= $image['description']; ?></span>
