@@ -40,19 +40,35 @@ $date = new DateTime($fields['project-date']);
                 <?php foreach($images as $image): ?>
                 <li class="process__item">
                     <figure class="process__figure">
-                        <a href="<?= $image['url']; ?>" title="<?= __('Afficher l’image en plus grand', 'sp'); ?>">
+                        <a class="process__link" href="<?= $image['url']; ?>" title="<?= __('Afficher l’image en plus grand', 'sp'); ?>">
                             <img class="process__image" src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>">
+                            <div class="process__overlay"></div>
+                            <div class="process__button">
+                                <a class="overlay__button" href="#">S</a>
+                            </div>
                         </a>
-                        <?php if($image['description']): ?>
+                        <!-- <?php if($image['description']): ?>
                         <figcaption class="image__caption"><?= $image['description']; ?></figcaption>
-                        <?php endif; ?>
+                        <?php endif; ?> -->
                     </figure>
+                    <?php if($image['description']): ?>
+                    <span class="image__caption"><?= $image['description']; ?></span>
+                    <?php endif; ?>
                 </li>
                 <?php endforeach; ?>
             </ul>
         <?php endif; ?>
         </section>
     </div>
+<!--
+    <div class="image01">
+                           <img src="http://lorempixel.com/350/263/" alt="">
+                           <div class="ovrly"></div>
+                           <div class="buttons">
+                               <a href="#" class="fa fa-link"></a>
+                               <a href="#" class="fa fa-search"></a>
+                           </div>
+   </div>-->
 
 </main>
 
