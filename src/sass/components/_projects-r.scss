@@ -19,12 +19,9 @@
     .projects--wrapper {
         padding: 0 1rem 2rem;
         transform: translate(0);
-        // flex-direction: column;
-        // align-items: center;
-        // flex-wrap: nowrap;
-        // justify-content: flex-start;
         .project {
             width: 100%;
+            margin: 0 0 2.5% 0;
         }
     }
 }

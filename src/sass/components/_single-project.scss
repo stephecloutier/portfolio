@@ -38,7 +38,9 @@
 }
 
 .project__process {
-    margin-top: 4rem;
+    margin: 4rem auto 0 auto;
+    width: 100%;
+    max-width: 1056px;
 }
 
 .process__title {
@@ -51,22 +53,32 @@
     margin-bottom: 2rem;
 }
 
-.images__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+.process__wrapper {
     width: 100%;
+    margin-left: -2.5%;
+    font-size: 0;
+    list-style: none;
+
 }
 
-.process__wrapper {
-    margin: 1.5rem 1rem;
-    max-width: 100%;
-    overflow: hidden;
+.process__item {
+    font-size: 18px;
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0 0 2.5% 2.5%;
+    width: 30.83%;
+    vertical-align: top;
+}
+
+.process__figure {
+    //margin: 1.5rem 1rem;
+    //max-width: 100%;
+    //overflow: hidden;
 }
 
 .process__image {
-    width: auto;
-    height: 250px;
+    max-width: 100%;
+    height: auto;
 }
 
 .image__caption {

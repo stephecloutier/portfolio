@@ -36,21 +36,24 @@ $date = new DateTime($fields['project-date']);
         ?>
         <section class="project__process">
             <h2 class="process__title"><?= __('Images du projet', 'sp'); ?></h2>
-            <div class="images__wrapper">
+            <ul class="process__wrapper">
                 <?php foreach($images as $image): ?>
-                <figure class="process__wrapper">
-                    <a href="<?= $image['url']; ?>" title="<?= __('Afficher l’image en plus grand', 'sp'); ?>">
-                        <img class="process__image" src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>">
-                    </a>
-                    <?php if($image['description']): ?>
-                    <figcaption class="image__caption"><?= $image['description']; ?></figcaption>
-                    <?php endif; ?>
-                </figure>
+                <li class="process__item">
+                    <figure class="process__figure">
+                        <a href="<?= $image['url']; ?>" title="<?= __('Afficher l’image en plus grand', 'sp'); ?>">
+                            <img class="process__image" src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>">
+                        </a>
+                        <?php if($image['description']): ?>
+                        <figcaption class="image__caption"><?= $image['description']; ?></figcaption>
+                        <?php endif; ?>
+                    </figure>
+                </li>
                 <?php endforeach; ?>
-            </div>
-        </div>
+            </ul>
         <?php endif; ?>
-    </section>
+        </section>
+    </div>
+
 </main>
 
 
