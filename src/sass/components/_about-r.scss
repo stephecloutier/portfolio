@@ -1,8 +1,26 @@
+@media screen and (min-width: 1680px) {
+    .body--about {
+        background-size: 800px;
+    }
+}
+
+
 @media screen and (max-width: 1200px) {
     .about {
         padding: 0 2rem 0 2rem;
     }
+    .body--about {
+        background-size: 500px;
+    }
 }
+
+@media screen and (max-width: 1000px) {
+    .body--about {
+        background-position: right -40% bottom 10%;
+        background-size: 500px;
+    }
+}
+
 
 @media screen and (max-width: 800px) {
 
@@ -29,6 +47,20 @@
         margin-left: 3rem;
     }
 }
+
+@media screen and (max-width: 730px) {
+    .body--about {
+        background-position: right -75% bottom 20%;
+        background-size: 500px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .body--about {
+        background: none;
+    }
+}
+
 
 @media screen and (max-width: 530px) {
     .about__title, .fields__title {

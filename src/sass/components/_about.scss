@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+
+.body--about {
+    background-image: url('../images/about.jpg');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+
 .about__wrapper {
     max-width: 1056px;
     width: 100%;

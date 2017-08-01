@@ -9,9 +9,11 @@ get_header();
 <main class="contact">
     <h1 class="main-title contact__title"><?= __('Pour me contacter', 'sp'); ?></h1>
     <div class="contact__wrapper">
+        <!--
         <figure class="about__img--wrapper">
             <img class="about__image" width="300" height="auto" src="<?= get_template_directory_uri(); ?>/assets/images/cloutierstephanie.jpg" alt="Photo de Stéphanie Cloutier">
         </figure>
+    -->
 
         <div class="contact__infos">
             <span class="contact__subtitle"><?= __('Mes coordonnées', 'sp'); ?></span>
