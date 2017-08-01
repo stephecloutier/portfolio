@@ -29,7 +29,7 @@ get_header();
         </div>
         <div class="fields">
             <div class="fields__wrapper">
-                <h2 class="fields__title"><?= __('Graphisme &<span class="fields__title--emphasis">développement web</span>', 'sp'); ?></h2>
+                <h2 class="fields__title"><?= __('Graphisme & <span class="fields__title--emphasis">développement web</span>', 'sp'); ?></h2>
                 <p class="fields__content">
                     <?= __('Après trois ans de design graphique, j’avais toujours envie d’étudier. Quoi de mieux que de compléter ma formation avec le développement web&nbsp;?', 'sp'); ?>
                 </p>

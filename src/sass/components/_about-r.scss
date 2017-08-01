@@ -1,30 +1,52 @@
 @media screen and (max-width: 1200px) {
-    .about__wrapper {
-        padding: 0 2rem 3rem 2rem;
+    .about {
+        padding: 0 2rem 0 2rem;
     }
 }
 
-@media screen and (max-width: 980px) {
-    .about__content {
-        flex-direction: column;
+@media screen and (max-width: 800px) {
+
+    .fields__title, .about__title {
+        font-size: 3rem;
+        line-height: 1.6;
     }
-    .about__image--wrapper {
-        order: -1;
-        width: 100%;
+
+    .fields__title--emphasis, .about__title--emphasis {
+        margin-left: 0;
     }
-    .about__text {
-        width: 100%;
-        max-width: 600px;
-        text-align: center;
-        margin-top: 1rem;
+
+    .fields__content, .about__text {
+        margin-left: 0;
+        font-size: 1.2rem;
+        max-width: 500px;
     }
-    .about__title {
-        text-align: center;
+
+    .fields__cta, .about__cta {
+        margin-left: 1rem;
+    }
+
+    .about__cta--second {
+        margin-left: 3rem;
     }
 }
 
-@media screen and (max-width: 470px) {
-    .about__text {
+@media screen and (max-width: 530px) {
+    .about__title, .fields__title {
+        display: inline;
+        line-height: 1;
+    }
+    .about__title--emphasis, .fields__title--emphasis {
+        margin: 0;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 530px) {
+
+    .about__title, .fields__title {
+        font-size: 2rem;
+    }
+    .about__text, .fields__content {
         font-size: 1rem;
     }
     .about__image {
@@ -33,40 +55,17 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .fields {
-        padding: 5rem 2rem 0 2rem;
-    }
-}
-
-@media screen and (max-width: 1120px) {
-    .fields__title--emphasis {
-        margin-left: 0;
-        display: inline;
-    }
-
-    .fields__content {
-        margin-left: 0;
-    }
-
-    .fields__cta {
+@media screen and (max-width: 400px) {
+    .about__cta--second {
+        display: block;
         margin-left: 1rem;
+        margin-top: 0;
     }
 }
 
 
-@media screen and (max-width: 800px) {
-    .fields__title {
-        font-size: 3rem;
-        line-height: 1;
-    }
-    .fields__content {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .fields {
-        padding: 3rem 1rem 0 1rem;
+@media screen and (max-width: 370px) {
+    .about {
+        padding: 0 1rem 0 1rem;
     }
 }
