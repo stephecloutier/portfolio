@@ -24,7 +24,8 @@ get_header();
                 J’aime beaucoup le design (web ou <em class="about__text--emphasis">print</em>), l’illustration, <em class="about__text--emphasis">Magic: The Gathering</em>, <em class="about__text--emphasis">Nintendo</em> et les pâtes au <em class="about__text--emphasis">pesto&nbsp;!</em>
             -->
             </p>
-            <a href="http://stephanie.cloutier.pro/cvjuillet2017.pdf" class="about__cta cta" title="<?= __('Télécharger mon cv', 'sp'); ?>"><?= __('Télécharger mon cv', 'sp'); ?></a>
+            <a href="<?= sp_get_page_url('template-projects.php'); ?>" class="about__cta cta" title="<?= __('Aller sur la page des projets', 'sp'); ?>"><?= __('Voir mes projets', 'sp'); ?></a>
+            <a href="<?= sp_get_page_url('template-contact.php'); ?>" class="about__cta cta about__cta--second" title="<?= __('Aller sur la page de contact', 'sp'); ?>"><?= __('Contactez-moi', 'sp'); ?></a>
         </div>
         <div class="fields">
             <div class="fields__wrapper">
@@ -32,7 +33,7 @@ get_header();
                 <p class="fields__content">
                     <?= __('Après trois ans de design graphique, j’avais toujours envie d’étudier. Quoi de mieux que de compléter ma formation avec le développement web&nbsp;?', 'sp'); ?>
                 </p>
-                <a href="<?= sp_get_page_url('template-contact.php'); ?>" class="fields__cta cta" title="<?= __('Aller sur la page de contact', 'sp'); ?>"><?= __('Contactez-moi pour vos projets', 'sp'); ?></a>
+                <a href="http://stephanie.cloutier.pro/cvjuillet2017.pdf" class="fields__cta cta" title="<?= __('Télécharger mon cv', 'sp'); ?>"><?= __('Télécharger mon cv', 'sp'); ?></a>
             </div>
         </div>
     </div>

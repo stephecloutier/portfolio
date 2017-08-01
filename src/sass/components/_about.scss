@@ -8,7 +8,7 @@
     max-width: 1056px;
     width: 100%;
     margin: 0 auto;
-    padding: 0rem 0 3rem 0;
+    padding: 0rem 0 5rem 0;
 }
 
 .about__title {
@@ -82,4 +82,8 @@
 .fields__cta, .about__cta {
     margin-top: 1rem;
     margin-left: 7.2rem + 1rem;
+}
+
+.about__cta--second {
+    margin-left: 3rem;
 }
