@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/assets/css/main.css">
         <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/assets/css/lightbox.css">
     </head>
-    <body class="<?php if(is_page(sp_get_page_id_from_template('template-about.php'))) echo 'body--about'; ?>">
+    <body class="<?php if(is_page(sp_get_page_id_from_template('template-about.php'))) echo 'body--about'; ?><?php if(is_page(sp_get_page_id_from_template('template-contact.php'))) echo 'body--contact'; ?>">
         <header class="header<?php if(is_front_page()) echo ' header--home'; ?>">
             <div class="header__wrapper">
                 <h1>
