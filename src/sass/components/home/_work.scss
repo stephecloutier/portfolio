@@ -12,7 +12,8 @@
 
 .work__title {
     font-weight: 600;
-    font-size: 4rem;
+    //font-size: 4rem;
+    font-size: 2rem;
     color: $blue;
 }
 
@@ -24,20 +25,22 @@
 
 .work__content {
     margin-top: 0.5rem;
-    margin-left: 5.5rem;
+    //margin-left: 5.5rem;
     max-width: 750px;
     font-size: 1.5rem;
 }
 
 .work__cta {
-    margin-left: 5.5rem + 1rem;
+    //margin-left: 5.5rem + 1rem;
     margin-top: 1rem;
 }
 
 .work__projects {
     padding: 2rem 0 0 0;
-    margin-left: calc(5.5rem - 2.5%);
-    max-width: calc(1056px - 5.5rem);
+    //margin-left: calc(5.5rem - 2.5%);
+    margin-left: -2.5%;
+    //max-width: calc(1056px - 5.5rem);
+    max-width: 1056px;
     width: 100%;
     font-size: 0;
     .project {
