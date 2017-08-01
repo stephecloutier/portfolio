@@ -6,13 +6,34 @@
 
 @media screen and (max-width: 670px) {
     .contact__wrapper {
-        flex-direction: column;
+        //flex-direction: column;
     }
     .contact__infos {
-        margin-bottom: 2rem;
+        //margin-bottom: 2rem;
+        //margin-left: 0;
         width: 100%;
     }
     .form__wrapper {
         width: 100%;
+    }
+    .about__img--wrapper {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 490px) {
+    .about__img--wrapper {
+        @include hidden;
+        height: 0;
+        width: 0;
+    }
+    .contact__infos {
+        margin-left: 0;
     }
 }

@@ -12,23 +12,74 @@
 }
 
 .about__title {
-    margin-bottom: 3rem;
+    //margin-bottom: 3rem;
+    line-height: 1.4;
+}
+
+.about__title--emphasis {
+    display: block;
+    margin-left: 7rem;
+    margin-top: -2rem;
 }
 
 .about__content {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
 }
 
 .about__text {
-    line-height: 1.6;
-    font-size: 1.3rem;
-    max-width: 60%;
-    margin: 0 auto;
+    // line-height: 1.6;
+    // font-size: 1.3rem;
+    // max-width: 60%;
+    // margin: 0 auto;
+    margin-top: 0.5rem;
+    margin-left: 7.2rem;
+    max-width: 750px;
+    font-size: 1.5rem;
 }
 
 .about__text--emphasis {
     font-style: italic;
+}
+
+/////////////////////////
+// graphisme & dév web \\
+///////////////////////
+
+.fields {
+    padding: 3rem 0 0 0;
+    font-family: $karla;
+    width: 100%;
+}
+
+.fields__wrapper {
+    max-width: 1056px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fields__title {
+    font-weight: 600;
+    font-size: 4rem;
+    color: $blue;
+}
+
+.fields__title--emphasis {
+    display: block;
+    margin-left: 7rem;
+    margin-top: -2rem;
+}
+
+.fields__content {
+    margin-top: 0.5rem;
+    margin-left: 7.2rem;
+    max-width: 750px;
+    font-size: 1.5rem;
+}
+
+.fields__cta, .about__cta {
+    margin-top: 1rem;
+    margin-left: 7.2rem + 1rem;
 }

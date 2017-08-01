@@ -13,13 +13,14 @@
     width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
 }
 
 .contact__infos {
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin-left: 2rem;
 }
 .contact__listc {
     display: flex;

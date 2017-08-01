@@ -9,6 +9,10 @@ get_header();
 <main class="contact">
     <h1 class="main-title contact__title"><?= __('Pour me contacter', 'sp'); ?></h1>
     <div class="contact__wrapper">
+        <figure class="about__img--wrapper">
+            <img class="about__image" width="300" height="auto" src="<?= get_template_directory_uri(); ?>/assets/images/cloutierstephanie.jpg" alt="Photo de Stéphanie Cloutier">
+        </figure>
+
         <div class="contact__infos">
             <span class="contact__subtitle"><?= __('Mes coordonnées', 'sp'); ?></span>
             <ul class="contact__listc">
@@ -31,11 +35,13 @@ get_header();
                 </li>
             </ul>
         </div>
-
+<!--
         <div class="form__wrapper">
+
+
             <span class="contact__subtitle"><?= __('Formulaire de contact', 'sp'); ?></span>
             <?= do_shortcode('[contact-form-7 id="42" title="Formulaire de contact"]'); ?>
-        </div>
+        </div>-->
     </div>
 </main>
 

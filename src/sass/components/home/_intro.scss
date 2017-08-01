@@ -36,6 +36,13 @@
             text-transform: none;
         }
     }
+    .introduction__link {
+        transition: 0.3s ease-in;
+        letter-spacing: 0em;
+        &:hover {
+            letter-spacing: 0.05em;
+        }
+    }
 }
 
 
