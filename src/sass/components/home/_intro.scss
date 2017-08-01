@@ -23,15 +23,32 @@
 //     }
 // }
 
+.header--home {
+    min-height: 100vh;
+    width: 100%;
+    // background-image: url('../images/bg_accents.svg'), url('../images/bg_points.svg');
+    // background-attachment: scroll, fixed;
+    // background-repeat: no-repeat repeat-y;
+}
+
+body {
+    background-image: url('../images/bg_accents.svg'), url('../images/bg_points.svg');
+    background-attachment: scroll, fixed;
+    background-repeat: no-repeat repeat-y;
+}
+
+.header__wrapper {
+    //background-color: white;
+}
+
 .introduction--home {
     width: 100%;
-    max-width: 1056px;
+    //max-width: 1056px;
     margin: 0 auto;
     color: $blue;
     font-weight: 400;
     text-align: center;
-    min-height: 65vh;
-    //background-color: $pink;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,6 +59,7 @@
         display: block;
         //color: $pink;
         text-transform: lowercase;
+        background-color: white;
         &--big {
             font-size: 5rem;
             font-weight: 600;

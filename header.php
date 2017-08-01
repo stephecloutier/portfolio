@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/assets/css/main.css">
     </head>
     <body>
-        <header class="header">
+        <header class="header<?php if(is_front_page()) echo ' header--home'; ?>">
             <div class="header__wrapper">
                 <h1>
                     <a href="<?= get_home_url(); ?>" class="header__link" title="Aller à l’accueil">
@@ -43,6 +43,13 @@
                     </ul>
                 </nav>
             </div>
+
+            <?php if(is_front_page()) : ?>
+            <p class="introduction introduction--home">
+                <span class="introduction__line introduction__line--big">Stéphanie Cloutier</span>
+                <span class="introduction__line">Graphiste &amp; Développeur web</span>
+            </p>
+            <?php endif; ?>
         </header>
 
     <?php setlocale(LC_ALL, 'fr_BE.utf8'); ?>

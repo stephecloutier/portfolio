@@ -9,23 +9,23 @@ get_header();
 
 <main class="home">
 
-
+<!--
     <section class="introduction introduction--home">
         <div class="introduction__wrapper">
             <h2 class="hidden">Introduction</h2>
             <p class="introduction__content">
                 <span class="introduction__line introduction__line--big">Stéphanie Cloutier</span>
                 <span class="introduction__line">Graphiste &amp; Développeur web</span>
-                <!--
+
                 <span class="introduction__line"><?= __('Bonjour&nbsp;!','sp'); ?></span>
                 <span class="introduction__line"><?= __('Je m’appelle Stéphanie, ', 'sp'); ?></span>
                 <span class="introduction__line"><?= __('je suis <em class="introduction--english">Graphic Designer</em> ', 'sp'); ?></span>
                 <span class="introduction__line"><?= __('& <em class="introduction--english">Web Developer</em> ', 'sp'); ?></span>
-                -->
+
             </p>
         </section>
         </div>
-
+-->
 
 <!--
     <section class="fields">
