@@ -24,7 +24,7 @@ get_header();
                 J’aime beaucoup le design (web ou <em class="about__text--emphasis">print</em>), l’illustration, <em class="about__text--emphasis">Magic: The Gathering</em>, <em class="about__text--emphasis">Nintendo</em> et les pâtes au <em class="about__text--emphasis">pesto&nbsp;!</em>
             -->
             </p>
-            <a href="" class="about__cta cta" title="<?= __('Télécharger mon cv', 'sp'); ?>"><?= __('Télécharger mon cv', 'sp'); ?></a>
+            <a href="http://stephanie.cloutier.pro/cvjuillet2017.pdf" class="about__cta cta" title="<?= __('Télécharger mon cv', 'sp'); ?>"><?= __('Télécharger mon cv', 'sp'); ?></a>
         </div>
         <div class="fields">
             <div class="fields__wrapper">
