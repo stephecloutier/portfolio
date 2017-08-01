@@ -47,8 +47,13 @@
             <?php if(is_front_page()) : ?>
             <p class="introduction introduction--home">
                 <span class="introduction__line introduction__line--big">Stéphanie Cloutier</span>
-                <span class="introduction__line">Graphiste &amp; Développeur web</span>
+                <span class="introduction__line">Graphiste <span class="line">&amp;</span> <span class="line">Développeur web</span></span>
             </p>
+            <a href="#work">
+                <svg id="arrow-down" class="introduction__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 52">
+                    <path class="st0" d="M24.3 39.4c-1.2 0-2.3-.5-3.2-1.3L3.2 20.2c-1.8-1.8-1.8-4.6 0-6.4C5 12 7.8 12 9.6 13.8l14.7 14.7L39 13.8c1.8-1.8 4.6-1.8 6.4 0 1.8 1.8 1.8 4.6 0 6.4L27.5 38.1c-.9.8-2 1.3-3.2 1.3z"/>
+                </svg>
+            </a>
             <?php endif; ?>
         </header>
 

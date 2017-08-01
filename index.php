@@ -40,7 +40,7 @@ get_header();
 -->
 
 
-    <section class="work">
+    <section class="work" id="work">
         <div class="work__wrapper">
             <!--
             <h2 class="work__title"><?= __('Ce que <span class="work__title--emphasis">je fais</span>', 'sp'); ?></h2>
