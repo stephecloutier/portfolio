@@ -47,7 +47,7 @@
 
             <?php if(is_front_page()) : ?>
             <p class="introduction introduction--home">
-                <a href="<?= sp_get_page_url('template-about.php'); ?>" class="introduction__link"><span class="introduction__line introduction__line--big">Stéphanie Cloutier</span></a>
+                <a href="<?= sp_get_page_url('template-about.php'); ?>" class="introduction__link"><span class="introduction__line introduction__line--big" title="<?= __('À propos de Stéphanie Cloutier', 'sp'); ?>">Stéphanie Cloutier</span></a>
                 <span class="introduction__line">Graphiste <span class="line">&amp;</span> <span class="line">Développeur web</span></span>
             </p>
             <a href="#work">
