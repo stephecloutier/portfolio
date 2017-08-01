@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title><?php wp_title(''); ?></title>
         <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/assets/css/main.css">
+        <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/assets/css/lightbox.css">
     </head>
     <body>
         <header class="header<?php if(is_front_page()) echo ' header--home'; ?>">

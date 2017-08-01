@@ -40,7 +40,7 @@ $date = new DateTime($fields['project-date']);
                 <?php foreach($images as $image): ?>
                 <li class="process__item">
                     <figure class="process__figure">
-                        <a class="process__link" href="<?= $image['url']; ?>" title="<?= __('Afficher l’image en plus grand', 'sp'); ?>">
+                        <a data-lightbox="process" class="process__link" href="<?= $image['url']; ?>" data-title="<?php if($image['description']) echo $image['description']; ?>">
                             <img class="process__image" src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>">
                             <div class="process__overlay"></div>
                             <div class="process__button">
@@ -48,25 +48,12 @@ $date = new DateTime($fields['project-date']);
                             </div>
                         </a>
                     </figure>
-                    <?php if($image['description']): ?>
-                    <span class="image__caption"><?= $image['description']; ?></span>
-                    <?php endif; ?>
                 </li>
                 <?php endforeach; ?>
             </ul>
         <?php endif; ?>
         </section>
     </div>
-<!--
-    <div class="image01">
-                           <img src="http://lorempixel.com/350/263/" alt="">
-                           <div class="ovrly"></div>
-                           <div class="buttons">
-                               <a href="#" class="fa fa-link"></a>
-                               <a href="#" class="fa fa-search"></a>
-                           </div>
-   </div>-->
-
 </main>
 
 

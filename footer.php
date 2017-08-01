@@ -30,6 +30,7 @@
                 </span>
 
             </div>
-        </footer><!--
-    --></body>
+        </footer>
+        <script src="<?= get_template_directory_uri(); ?>/assets/js/lightbox-plus-jquery.js"></script>
+    </body>
 </html>
