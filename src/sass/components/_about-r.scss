@@ -9,28 +9,24 @@
     .about {
         padding: 0 2rem 0 2rem;
     }
-    .body--about, .body--contact {
-        background-size: 500px;
-    }
-    .contact__wrapper, .contact__title {
-        padding: 0 2rem;
-    }
 }
 
 @media screen and (max-width: 1000px) {
     .body--about {
         background-position: right -40% bottom 10%;
-        background-size: 500px;
     }
     .body--contact {
         background-position: right bottom 30%;
     }
 }
 
-
 @media screen and (max-width: 800px) {
+    .body--about {
+        background-position: right -40% bottom 10%;
+        background-size: 500px;
+    }
 
-    .fields__title, .about__title {
+    .fields__title, .about__title, .contact__title {
         font-size: 3rem;
         line-height: 1.6;
     }
@@ -39,7 +35,7 @@
         margin-left: 0;
     }
 
-    .fields__content, .about__text {
+    .fields__content, .about__text, .contact__infos {
         margin-left: 0;
         font-size: 1.2rem;
         max-width: 500px;
@@ -54,16 +50,11 @@
     }
 }
 
-@media screen and (max-width: 730px) {
-    .body--about {
-        background-position: right -75% bottom 20%;
-        background-size: 500px;
-    }
-}
 
 @media screen and (max-width: 650px) {
     .body--about {
-        background: none;
+        background-position: right -70% bottom 10%;
+        //background: none;
     }
     .body--contact {
         background-position: right bottom 20%;
@@ -71,24 +62,29 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .body--about {
+        background: none;
+    }
+}
+
 
 @media screen and (max-width: 530px) {
-    .about__title, .fields__title {
+    .about__title, .fields__title, .contact__title {
         display: inline;
         line-height: 1;
+        font-size: 2rem;
     }
+
     .about__title--emphasis, .fields__title--emphasis {
         margin: 0;
         line-height: 1;
     }
     .body--contact {
         background-size: 400px;
+    }
 
-    }
-    .about__title, .fields__title {
-        font-size: 2rem;
-    }
-    .about__text, .fields__content {
+    .about__text, .fields__content, .contact__infos {
         font-size: 1rem;
     }
     .about__image {

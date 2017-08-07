@@ -5,18 +5,18 @@
 }
 
 
-.body--about, .body--contact {
+.body--about {
     background-image: url('../images/about.jpg');
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 600px;
 }
 
-.about__wrapper {
+.about__wrapper, .fields__wrapper {
     max-width: 1056px;
     width: 100%;
     margin: 0 auto;
-    padding: 0rem 0 5rem 0;
+    //padding: 0rem 0 5rem 0;
 }
 
 .about__title {
@@ -49,17 +49,12 @@
 // graphisme & dév web \\
 ///////////////////////
 
-.fields {
+.fields, .contact {
     padding: 3rem 0 0 0;
     font-family: $karla;
     width: 100%;
 }
 
-.fields__wrapper {
-    max-width: 1056px;
-    width: 100%;
-    margin: 0 auto;
-}
 
 .fields__title {
     font-weight: 600;
@@ -92,49 +87,51 @@
 ///////////////
 /// contact \\\
 ///////////////
+
 .contact {
     padding-bottom: 4rem;
 }
 
 
-// .body--contact {
-//     background-image: url('../images/contact.jpg');
-//     background-position: right 20% top;
-//     background-repeat: no-repeat;
-//     background-size: 40%;
-// }
-
-
 .contact__title {
-    max-width: 1056px;
-    width: 100%;
-    margin: 0 auto 3rem auto;
+    font-weight: 600;
+    font-size: 4rem;
+    color: $blue;
+    // max-width: 1056px;
+    // width: 100%;
+    // margin: 0 auto 3rem auto;
 }
 
 .contact__wrapper {
     max-width: 1056px;
     width: 100%;
     margin: 0 auto;
-    display: flex;
-    //justify-content: space-between;
+    //display: flex;
 }
 
 .contact__infos {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+    //display: flex;
+    //flex-direction: column;
+    //width: 40%;
     //margin-left: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 7.2rem;
+    max-width: 750px;
+    //font-size: 1.5rem;
 }
+
 .contact__listc {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
 .contact__itemc {
-    margin-bottom: 0.2rem;
-    &--mailc {
-        display: block;
+    margin-bottom: 0.1rem;
+    .contact__link {
+        display: inline-block;
         font-weight: 600;
+        //margin-top: 0.75rem;
         &::after {
             content: "";
             height: 1.5px;
@@ -153,14 +150,6 @@
     }
 }
 
-.form__wrapper {
-    width: 60%;
-}
-
-.wpcf7-form {
-    display: flex;
-    flex-direction: column;
-}
 
 .contact__subtitle, .contact--special {
     color: $blue;
@@ -175,5 +164,5 @@
 
 .contact--special {
     display: block;
-    margin-top: 1rem;
+    margin-top: 0.75rem;
 }
