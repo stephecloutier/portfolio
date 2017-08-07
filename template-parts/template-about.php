@@ -9,7 +9,7 @@ get_header();
 <main class="about">
     <div class="about__wrapper">
         <h1 class="main-title about__title">
-            <?= __('Mais qui <span class="about__title--emphasis">est Stéphanie&nbsp;?</span>', 'sp'); ?>
+            <?= __('Mais qui est <span class="about__title--emphasis">Stéphanie&nbsp;?</span>', 'sp'); ?>
         </h1>
         <div class="about__content">
             <p class="about__text">
