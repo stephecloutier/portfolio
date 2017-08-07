@@ -14,7 +14,9 @@ $date = new DateTime($fields['project-date']);
         <time class="project__date" datetime="<?= $date->format('Y-m-d'); ?>"><?= strftime("%B %Y", $date->getTimestamp()); ?></time>
         <div class="introduction--project">
             <div class="introduction__content">
+                <div class="wysiwyg">
                 <?= $fields['project-introduction']; ?>
+                </div>
                 <div class="introduction__links">
                     <?php if($fields['project-github-link']): ?>
                     <a href="<?= $fields['project-github-link']; ?>" class="introduction__link introduction__link--github cta" title="<?= __('Voir le repo Github du projet', 'sp'); ?>"><?= __('Voir sur Github', 'sp'); ?></a>
