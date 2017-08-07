@@ -32,16 +32,9 @@
 
 .about__content {
     width: 100%;
-    // display: flex;
-    // align-items: center;
-    // justify-content: space-between;
 }
 
 .about__text {
-    // line-height: 1.6;
-    // font-size: 1.3rem;
-    // max-width: 60%;
-    // margin: 0 auto;
     margin-top: 0.5rem;
     margin-left: 7.2rem;
     max-width: 750px;
@@ -94,4 +87,93 @@
 
 .about__cta--second {
     margin-left: 3rem;
+}
+
+///////////////
+/// contact \\\
+///////////////
+.contact {
+    padding-bottom: 4rem;
+}
+
+
+// .body--contact {
+//     background-image: url('../images/contact.jpg');
+//     background-position: right 20% top;
+//     background-repeat: no-repeat;
+//     background-size: 40%;
+// }
+
+
+.contact__title {
+    max-width: 1056px;
+    width: 100%;
+    margin: 0 auto 3rem auto;
+}
+
+.contact__wrapper {
+    max-width: 1056px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    //justify-content: space-between;
+}
+
+.contact__infos {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    //margin-left: 2rem;
+}
+.contact__listc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contact__itemc {
+    margin-bottom: 0.2rem;
+    &--mailc {
+        display: block;
+        font-weight: 600;
+        &::after {
+            content: "";
+            height: 1.5px;
+            background-color: $darkGray;
+            width: 0%;
+            display: block;
+            position: relative;
+            top: -2px;
+            transition: 0.2s ease-in;
+        }
+        &:hover, &:focus {
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.form__wrapper {
+    width: 60%;
+}
+
+.wpcf7-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__subtitle, .contact--special {
+    color: $blue;
+    font-family: $karla;
+    font-weight: 600;
+}
+
+.contact__subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact--special {
+    display: block;
+    margin-top: 1rem;
 }

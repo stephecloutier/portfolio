@@ -12,6 +12,9 @@
     .body--about, .body--contact {
         background-size: 500px;
     }
+    .contact__wrapper, .contact__title {
+        padding: 0 2rem;
+    }
 }
 
 @media screen and (max-width: 1000px) {
