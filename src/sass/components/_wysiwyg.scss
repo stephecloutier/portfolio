@@ -1,0 +1,16 @@
+.wysiwyg {
+    em {
+        font-style: italic;
+    }
+    a {
+        font-weight: 600;
+        transition: 0.3s ease-in-out;
+        color: $blue;
+    }
+    a:hover {
+        color: $pink;
+    }
+    b {
+        font-weight: 600;
+    }
+}
