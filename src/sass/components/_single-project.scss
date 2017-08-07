@@ -32,7 +32,7 @@
         margin-left: 2.5rem;
     }
     .introduction__image {
-        box-shadow: 3px 3px 14px 0px $lightGray;
+        //box-shadow: 3px 3px 14px 0px $lightGray;
         max-width: 48%;
     }
 }
@@ -86,14 +86,6 @@
     position: relative;
     top: 0;
     left: 0;
-    // -webkit-transform: scale(1.1);
-    // -moz-transform: scale(1.1);
-    // -ms-transform: scale(1.1);
-    // -o-transform: scale(1.1);
-    // transform: scale(1.1);
-    // -webkit-transition: -webkit-transform 0.3s;
-    // -moz-transition: -moz-transform 0.3s;
-    // -o-transition: -o-transform 0.3s;
     transition: transform 0.3s;
 }
 
